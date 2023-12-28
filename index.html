@@ -48,7 +48,7 @@
         <div class="info-content">
           <h1 class="name" title="CoDemy">CoDemy</h1>
 
-          <p class="title">Beyond Academia</p>
+          <p class="title" style="color: yellow">Beyond Academia</p>
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
@@ -181,14 +181,9 @@
 
         <section class="about-text">
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-            Illo officia animi harum sapiente laudantium soluta, minus facere 
-            sit quo porro excepturi recusandae eos necessitatibus dolores, quibusdam eum tempora, alias labore.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sequi quos,
-            eos libero quasi officiis? Consectetur porro quisquam, recusandae, ex eveniet 
-            ipsum reprehenderit sapiente commodi, dolores facere ut corrupti earum!
+            <strong>CoDemy</strong>, a leading educational platform in Bangladesh, offers comprehensive tutorials for
+            CS, IT, and science
+            curricula. We're dedicated to empowering students with knowledge and skills for academic success.
           </p>
         </section>
 
@@ -206,6 +201,38 @@
             <li class="service-item">
 
               <div class="service-icon-box">
+                <img src="./assets/images/visualstudio.svg" alt="vs icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Programming Language</h4>
+
+                <p class="service-item-text">
+                  C, CPP, Python, Java ...
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-teaching.svg" alt="teaching icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">HSC & Admission</h4>
+
+                <p class="service-item-text">
+                  ICT and Science Curriculum.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
                 <img src="./assets/images/icon-design.svg
                 " alt="design icon" width="40">
               </div>
@@ -214,7 +241,7 @@
                 <h4 class="h4 service-item-title">Web design</h4>
 
                 <p class="service-item-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, at.
+                  HTML, CSS, Bootstrap, Tailwind ...
                 </p>
               </div>
 
@@ -230,7 +257,7 @@
                 <h4 class="h4 service-item-title">Web development</h4>
 
                 <p class="service-item-text">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, asperiores?
+                  JavaScript, NodeJS, Express, React, MongoDB ...
                 </p>
               </div>
 
@@ -252,22 +279,6 @@
 
             </li-->
 
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-teaching.svg" alt="teaching icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Programming  Language</h4>
-
-                <p class="service-item-text">
-                  C, CPP, Python, Java ...
-                </p>
-              </div>
-
-            </li>
 
           </ul>
 
@@ -364,8 +375,10 @@
 
               <div data-modal-text>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis voluptatem neque, quisquam provident id pariatur eligendi ipsum minima 
-                    necessitatibus harum. Deserunt nam nisi non veritatis corporis repudiandae reiciendis consectetur assumenda.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis voluptatem neque, quisquam
+                  provident id pariatur eligendi ipsum minima
+                  necessitatibus harum. Deserunt nam nisi non veritatis corporis repudiandae reiciendis consectetur
+                  assumenda.
                 </p>
               </div>
 
@@ -462,6 +475,10 @@
 
           <ul class="filter-list">
 
+            <li class="filter-item active">
+              <button data-filter-btn>HSC & Admission</button>
+            </li>
+
             <li class="filter-item">
               <button class="active" data-filter-btn>C</button>
             </li>
@@ -495,6 +512,10 @@
             <ul class="select-list">
 
               <li class="select-item">
+                <button data-select-item>HSC & Admission</button>
+              </li>
+
+              <li class="select-item">
                 <button data-select-item>C</button>
               </li>
 
@@ -517,7 +538,49 @@
 
           <ul class="project-list">
 
-            <li class="project-item  active" data-filter-item data-category="web development">
+            <li class="project-item active" data-filter-item data-category="hsc & admission">
+
+              <a href="#">
+
+                <iframe
+                  src="https://docs.google.com/spreadsheets/d/e/2PACX-1vReTvmlFThTofcVCevnzRS9r4v9AlYLk_SYgaol6zD3z98hpHp74hUttEQqVD-cnUsifitjl4WzmUDT/pubhtml?widget=true&amp;headers=false"></iframe>
+
+                <h3 class="project-title active">HSC & Admission</h3>
+
+                <p class="project-category">Science Curriculum</p>
+
+              </a>
+            </li>
+
+            <li class="project-item" data-filter-item data-category="c">
+
+              <a href="#">
+
+                <iframe
+                  src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSrZ7lqOCjkA0HpVFtCbvyP_DKflXS_1BsGUGI8Km8OrCPpESYh4YO4eoU5F2Olr-kVD9nYlB28ZPiM/pubhtml?widget=true&amp;headers=false"></iframe>
+
+                <h3 class="project-title">C</h3>
+
+                <p class="project-category">Programming Language</p>
+
+              </a>
+            </li>
+
+            <li class="project-item" data-filter-item data-category="python">
+
+              <a href="#">
+
+                <iframe
+                  src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRsrzZdvWxADnF_PTwvwrB_wUXqLQ_e3RN-W24qr11g5l9w2j4yZa7KBvxNXp6o-zYmwzknkl2-NLe9/pubhtml?widget=true&amp;headers=false"></iframe>
+
+                <h3 class="project-title">Python</h3>
+
+                <p class="project-category">Programming Language</p>
+
+              </a>
+            </li>
+
+            <li class="project-item" data-filter-item data-category="web design">
               <a href="#">
 
                 <figure class="project-img">
@@ -530,12 +593,12 @@
 
                 <h3 class="project-title">Disaster Shield</h3>
 
-                <p class="project-category">Web development</p>
+                <p class="project-category">Web design</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
+            <li class="project-item" data-filter-item data-category="web development">
               <a href="#">
 
                 <figure class="project-img">
